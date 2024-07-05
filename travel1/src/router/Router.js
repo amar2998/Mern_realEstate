@@ -14,8 +14,8 @@ import Main from '../component/admin/Main';
 const Router = () => {
   return (
     <Routes>
-        <Route path='/' element={<Navigate to='/home'/>}/>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='/' element={<Navigate to='/'/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/tour' element={<Tour/>}/>
         <Route path='/tour/:id' element={<TourDetail/>}/>
